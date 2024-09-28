@@ -24,5 +24,9 @@ public class Cuadrado {
 		resultado=lado*4;
 		return resultado;
 	}
+	
+	public Cuadrado(int lado) {
+		this.lado=lado;
+	}
 
 }
