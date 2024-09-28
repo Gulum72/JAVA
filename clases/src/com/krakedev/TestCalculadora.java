@@ -8,7 +8,7 @@ public class TestCalculadora {
 		int resultadoResta;
 		double resultadoMultiplicacion;
 		double resultadoDivision;
-		String mostrarResultado;
+		
 		calcu=new Calculadora();
 		resultadoSumaa=calcu.sumar(5, 3);
 		resultadoResta=calcu.restar(10, 3);

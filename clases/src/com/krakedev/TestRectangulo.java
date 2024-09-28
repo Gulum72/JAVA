@@ -9,23 +9,23 @@ public class TestRectangulo {
 		
 		
 		int area;
-		r1.base=10;
-		r1.altura=5;
+		r1.setBase(10);
+		r1.setAltura(5);
 		area=r1.calcularArea();
 		
 		int area2;
-		r2.base=8;
-		r2.altura=3;
+		r2.setBase(8);
+		r2.setAltura(3);
 		area2=r2.calcularArea();
 		
 		int per;
-		p.base=r1.base*2;
-		p.altura=r1.altura*2;
+		p.setBase(r1.getBase()*2);
+		p.setAltura(r1.getAltura()*2);;
 		per=p.calcularPerimetro();
 		
 		int per2;
-		p.base=r2.base*2;
-		p.altura=r2.altura*2;
+		p.setBase(r2.getBase()*2);
+		p.setAltura(r2.getAltura()*2);
 		per2=p.calcularPerimetro();
 		
 		

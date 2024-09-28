@@ -11,9 +11,9 @@ public class TestCuadrado {
 		double lado2;
 		double lado3;
 		
-		l1.lado=2;
-		l2.lado=5;
-		l3.lado=8;
+		l1.setLado(2);
+		l2.setLado(5);
+		l3.setLado(8);
 		
 		lado1=l1.calcularArea();
 		lado2=l2.calcularArea();
