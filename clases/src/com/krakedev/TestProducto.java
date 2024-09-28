@@ -8,10 +8,33 @@ public class TestProducto {
 		Producto productoB;
 		Producto productoC;
 		/*INSTANCIANDO OBJETOS*/
-		productoA=new Producto();
-		productoB=new Producto();
-		productoC=new Producto();
+		productoA=new Producto("Manzanilla","Calmante",1.39,3);
+		productoB=new Producto("Paracetamol","Paraceramol",1.00,98);
+		productoC=new Producto("Analgan","Calmante",5,41);
 		
+		System.out.println("PRODUCTO 0 CONSTRUCTOR INICIO");
+		System.out.println("NOMBRE: "+productoA.getNombre());
+		System.out.println("DESCRIPCION: "+productoA.getDescripcion());
+		System.out.println("PRECIO: "+productoA.getPrecio());
+		System.out.println("STOCK: "+productoA.getStockActual());
+		System.out.println("-----------------------------------------");
+		
+		System.out.println("PRODUCTO 0.1");
+		System.out.println("NOMBRE: "+productoB.getNombre());
+		System.out.println("DESCRIPCION: "+productoB.getDescripcion());
+		System.out.println("PRECIO: "+productoB.getPrecio());
+		System.out.println("STOCK: "+productoB.getStockActual());
+		
+		System.out.println("-----------------------------------------");
+		
+		System.out.println("PRODUCTO 0.2");
+		System.out.println("NOMBRE: "+productoC.getNombre());
+		System.out.println("DESCRIPCION: "+productoC.getDescripcion());
+		System.out.println("PRECIO: "+productoC.getPrecio());
+		System.out.println("STOCK: "+productoC.getStockActual());
+		System.out.println("FIN EJERCICIO CONSTRUCTOR");
+		
+		System.out.println("-----------------------------------");
 		/*MODIFICANDO PRODUCTOS*/
 		productoA.setNombre("Clonazepam");
 		productoA.setDescripcion("Benzodiacepina");
