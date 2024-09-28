@@ -6,8 +6,12 @@ public class TestAuto {
 		Auto auto1;
 		Auto auto2;
 		/*INSTANCIANDO */
-		auto1=new Auto();
-		auto2=new Auto();
+		auto1=new Auto("Hiundai",1990,24000);
+		auto2=new Auto("Ferrari",2024,120000);
+		
+		System.out.println("MARCA DEL PRIMER AUTO ES: "+auto1.getMarca() );
+		System.out.println("MARCA DEL SEGUNDO AUTO ES: "+auto2.getMarca());
+		System.out.println("------------------------------------" );
 		/*MODIFICANDO VALORES AUTO1*/
 		auto1.setMarca("mustang");
 		auto1.setAnio(98);
